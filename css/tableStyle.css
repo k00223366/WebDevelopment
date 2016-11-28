@@ -120,7 +120,7 @@ ul#navlist a:hover {
 ul#drawlist {
     padding: 0px;
     margin-left: 1px;
-    
+    list-style-type:georgian;
     width: 540px;
     border-style: dashed;
 }
