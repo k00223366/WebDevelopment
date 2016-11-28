@@ -109,6 +109,8 @@ ul#navlist a:hover {
 }
 
 ul#drawlist {
+    padding: 0px;
+    margin: 10px 0px 10px 0px;
     list-style-type: none;
 }
 
