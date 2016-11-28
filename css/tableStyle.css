@@ -113,14 +113,16 @@ ul#drawlist {
     margin: 0px 0px 10px 0px;
     list-style-type: none;
     width: 100%; /*540*/
+    background-color: blue;
 }
 
 ul#drawlist li {
-    display: inline;
+    display: block;
     margin: 0px 0px 0px 3px;
     float:left;
     padding:4px;
     border: #B09C04 solid 1px;
+    background-color: yellow;
 }
 
 header {
