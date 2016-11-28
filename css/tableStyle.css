@@ -109,9 +109,11 @@ ul#navlist a:hover {
 }
 
 ul#drawlist {
-    
+    list-style-type: none;
+}
+
+ul#drawlist li {
     display: block;
-    float: left;
 }
 
 header {
