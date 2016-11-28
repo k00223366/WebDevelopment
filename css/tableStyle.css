@@ -117,7 +117,7 @@ ul#navlist a:hover {
     font-weight: bold;
 }
 
-ul#drawlist {
+ul#drawList {
     padding: 0px;
     margin-left: 1px;
     
@@ -125,7 +125,7 @@ ul#drawlist {
     border-style: dashed;
 }
 
-ul#drawlist li {
+ul#drawList li {
     display: block;
     float:right;
     padding:10px;
