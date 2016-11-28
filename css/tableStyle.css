@@ -67,9 +67,8 @@ input[type=text] {
     
     width:540px;
     border-style: dashed;
-    margin-top: 10px;
+    margin-top: 3px;
     margin: 10px;
-    padding-bottom: 40px;
 }
 
 #content {
@@ -120,7 +119,6 @@ ul#navlist a:hover {
 ul#drawList {
     padding: 0px;
     margin-left: 1px;
-    
     width: 540px;
     border-style:double;
 }
