@@ -1,0 +1,221 @@
+/* 
+Please do not modify the following style rule 
+*/
+#container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+
+}
+
+/* 
+All style rules after this point can be changed as required
+*/
+
+@font-face {
+    font-family:'myRegularOrkneyFont';
+src:url('../font/orkney/Orkney-Regular.otf');
+    /*url(https://typekit.com/fonts/futura-pt/details/futura-pt-light);
+    src:url(./font/orkney/Orkney-Bold.otf);*/
+}
+
+@font-face {
+    font-family:"myBoldOrkneyFont";
+    src:url('../font/orkney/Orkney-Bold.otf');
+}
+
+@font-face {
+    font-family:"myLightOrkneyFont";
+    src:url('../font/orkney/Orkney-Light.otf');
+}
+
+span {
+    background-color: #0DB5FF;
+    
+}
+
+#search {
+    background-color: deeppink;
+    max-width: 30%;
+    max-height: 26px;
+    float:right;
+    
+}
+
+#search input {
+    
+    background-color: white;
+    height: 20px;
+    max-width: 70%;
+}
+
+
+.username {
+    display: inline-block;
+    background-color: #0DB5FF;/*lightish blue*/
+    width:100px;
+}
+
+input[type=text] {
+    border: 2px solid darkblue;
+    border-radius: 4px;
+}
+
+#content {
+    width: 100%;
+    border-style: dashed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+
+ul#navlist {
+    padding: 0px;
+    margin: 10px 0px 10px 0px;
+    list-style-type: none;
+    width: 100%;
+}
+
+ul#navlist a{
+    color: white;
+}
+
+
+ul#navlist li{
+    display: block;
+    width:100px;
+    margin: 0px 0px 0px 3px;
+    float: left;
+    background-color:#823A1E;/*skyblue;*/
+    padding: 4px;
+    border: #B09C04 solid 1px;
+    text-align: center;
+}
+
+ul#navlist li input[type="text"]{
+    display: inline;
+    background-color: yellow;
+    float:left;
+    width:150px;
+    
+}
+
+ul#navlist a:hover {
+    color:white;
+    background-color: #823A1E; /*brown*/
+    font-weight: bold;
+}
+
+header {
+    background-color: #0DB5FF;
+    font-family: sans-serif;
+   
+}
+nav {
+    background-color: #92F7E5;
+    
+}
+footer {
+    background-color:azure;
+    clear: both; 
+    padding: 1px;
+}
+
+footer {
+    font-family:'myRegularOrkneyFont';
+    /*background-color: #B09C04; tan*/
+    /*background-color: #8EC6A5; lime*/
+    /*background-color: #80C31F; lightgreen*/
+    /*background-color: #823A1E; brown*/
+    background-color: #1E99F7; /*lightblue*/
+}
+
+body {
+    background-color: #0DB5FF;  
+    font-family: sans-serif;
+}
+
+
+#container {
+  background-color: #0DB5FF;
+  min-height:200px;
+}
+
+img {
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+table {
+    border: solid 1px #823A1E;
+    border-collapse: collapse;
+    font-family: 'myBoldOrkneyFont';
+}
+
+th {
+    background-color: #80C31F;
+}
+
+td {
+    border: solid 1px #823A1E;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+tr.odd td{
+    background-color: #80C31F;
+}
+
+tfoot {
+    font-family: "myLightOrkneyFont";
+    color: white;
+    background-color: #823A1E;
+}
+
+tfoot a{
+        color: white;
+}
+
+tfoot a:hover {
+    font-family: "myBoldOrkneyFont";
+    /*font-weight: bold;*/
+}
+
+caption {
+    text-align: left;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+#illustrationPlane {
+    
+    width: 560px;
+    box-sizing: border-box;
+    border-style: dashed;
+    background-color: #8EC6A5;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#textColumn {
+    width: 320px;
+    box-sizing: border-box;
+    border-style: dotted;
+    margin-top: 20px;
+    background-color: #B09C04;
+    float: right;
+    
+}
+
+#map {
+    margin-top: 20px;
+    border-style: dashed;
+}

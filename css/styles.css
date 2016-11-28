@@ -1,0 +1,37 @@
+/* 
+Please do not modify the following style rule 
+*/
+#container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+
+}
+
+/* 
+All style rules after this point can be changed as required
+*/
+
+header {
+    background-color: beige;
+   
+}
+nav {
+    background-color: darkgoldenrod;
+    
+}
+footer {
+    background-color: cornsilk;
+}
+
+body {
+    background-color: azure;    
+}
+
+
+#container {
+  background-color: aquamarine;
+  min-height:200px;
+}
