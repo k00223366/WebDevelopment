@@ -63,12 +63,9 @@ input[type=text] {
     border-radius: 4px;
 }
 
-#buttons {
-    
+#buttons {   
     width:540px;
-    border-style: dashed;
     margin-top: 3px;
-    margin: 10px;
 }
 
 #content {
@@ -118,7 +115,7 @@ ul#navlist a:hover {
 
 ul#drawList {
     padding: 0px;
-    margin-left: 1px;
+    margin-left: 0px;
     width: 540px;
     border: #B09C04 solid 1px;
     height: 10px;
@@ -128,7 +125,7 @@ ul#drawList li {
     display: block;
     float:left;
     padding:10px;
-    list-style-type:georgian;
+    list-style-type:none;
 }
 
 header {
