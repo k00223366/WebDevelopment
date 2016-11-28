@@ -110,8 +110,9 @@ ul#navlist a:hover {
 
 ul#drawlist {
     padding: 0px;
-    margin: 10px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
     list-style-type: none;
+    width: 100%; /*540*/
 }
 
 ul#drawlist li {
