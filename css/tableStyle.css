@@ -116,7 +116,7 @@ ul#drawlist {
 }
 
 ul#drawlist li {
-    display: block;
+    display: inline;
     margin: 0px 0px 0px 3px;
     float:left;
     padding:4px;
