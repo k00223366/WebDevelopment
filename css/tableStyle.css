@@ -120,7 +120,8 @@ ul#drawList {
     padding: 0px;
     margin-left: 1px;
     width: 540px;
-    border-style:double;
+    border: #B09C04 solid 1px;
+    height: 10px;
 }
 
 ul#drawList li {
@@ -128,7 +129,6 @@ ul#drawList li {
     float:left;
     padding:10px;
     list-style-type:georgian;
-    border: #B09C04 solid 1px;
 }
 
 header {
