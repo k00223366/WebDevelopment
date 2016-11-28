@@ -120,7 +120,7 @@ ul#navlist a:hover {
 ul#drawlist {
     padding: 0px;
     margin-left: 1px;
-    list-style-type: none;
+    
     width: 540px;
     border-style: dashed;
 }
@@ -129,6 +129,7 @@ ul#drawlist li {
     display: block;
     float:right;
     padding:10px;
+    list-style-type: none;
     border: #B09C04 solid 1px;
     background-color: yellow;
 }
