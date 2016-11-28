@@ -116,6 +116,10 @@ ul#drawlist {
 
 ul#drawlist li {
     display: block;
+    margin: 0px 0px 0px 3px;
+    float:left;
+    padding:4px;
+    border: #B09C04 solid 1px;
 }
 
 header {
