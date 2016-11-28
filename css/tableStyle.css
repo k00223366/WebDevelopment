@@ -112,8 +112,9 @@ ul#drawlist {
     padding: 0px;
     margin-left: 1px;
     list-style-type: none;
-    width: 100%; /*540*/
+    width: 540px;
     background-color: blue;
+    border-style: double;
 }
 
 ul#drawlist li {
