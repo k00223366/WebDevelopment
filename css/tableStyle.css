@@ -118,6 +118,7 @@ ul#drawlist {
 
 ul#drawlist li {
     display: block;
+    width:100px;
     margin: 0px 0px 0px 3px;
     float:left;
     padding:4px;
