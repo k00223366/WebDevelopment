@@ -122,16 +122,15 @@ ul#drawList {
     margin-left: 1px;
     
     width: 540px;
-    border-style: dashed;
+    border-style:double;
 }
 
 ul#drawList li {
     display: block;
-    float:right;
+    float:left;
     padding:10px;
     list-style-type:georgian;
     border: #B09C04 solid 1px;
-    background-color: yellow;
 }
 
 header {
