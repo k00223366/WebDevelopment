@@ -108,6 +108,12 @@ ul#navlist a:hover {
     font-weight: bold;
 }
 
+ul#drawlist {
+    
+    display: block;
+    float: left;
+}
+
 header {
     background-color: #0DB5FF;
     font-family: sans-serif;
