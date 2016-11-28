@@ -127,7 +127,7 @@ ul#drawlist {
 
 ul#drawlist li {
     display: block;
-    float:left;
+    float:right;
     padding:10px;
     border: #B09C04 solid 1px;
     background-color: yellow;
