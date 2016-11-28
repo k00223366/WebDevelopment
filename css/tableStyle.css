@@ -113,16 +113,13 @@ ul#drawlist {
     margin-left: 1px;
     list-style-type: none;
     width: 540px;
-    background-color: blue;
-    border-style: double;
+    border-style: dashed;
 }
 
 ul#drawlist li {
     display: block;
-    width:100px;
-    margin: 0px 0px 0px 3px;
     float:left;
-    padding:4px;
+    padding:10px;
     border: #B09C04 solid 1px;
     background-color: yellow;
 }
