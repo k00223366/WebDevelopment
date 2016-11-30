@@ -19,6 +19,14 @@ header h1{
     
 }
 
+#illustrationPlane h1 {
+    font-family: "futura-pt",sans-serif;
+}
+
+#textColumn h1 {
+    font-family: "futura-pt",sans-serif;
+}
+
 @font-face {
     font-family:'myRegularOrkneyFont';
 src:url('../font/orkney/Orkney-Regular.otf');
@@ -201,6 +209,7 @@ table {
     border: solid 1px #823A1E;
     border-collapse: collapse;
     font-family: 'myBoldOrkneyFont';
+    margin-bottom: 135px;
 }
 
 th {
@@ -272,7 +281,7 @@ caption {
    width:320px;
    box-sizing:border-box;
    
-   margin-top: 135px;
+   margin-top: 105px;
    float:right;
    border: #B09C04 solid 1px;
    border-radius: 4px;
@@ -301,11 +310,15 @@ caption {
 }
 
 form {
-    margin-bottom: 10px;
+    margin-bottom: 260px;
 }
 
 #map {
     margin-top: 20px;
     margin-bottom: 10px;
     border: #B09C04 solid 1px;
+}
+
+#sitelist {
+    margin-bottom: 400px;
 }
