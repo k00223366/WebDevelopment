@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--DOCTYPE html-->
 <html>
     <head>
         <title>Contact Form</title>
@@ -27,7 +27,8 @@
                 </ul>
                     <div id="search">
                         <span class="fa fa-search fa-lg">
-                        <input placeholder="Search term">
+                        <input type="search" name="duckduckgo">
+                        <!--<input placeholder="Search term">-->
                         
                             </span>
                         
@@ -40,8 +41,7 @@
                 <fieldset>
                     <legend><b>Tell us who you are: </b></legend>
                 <p>
-                <label class="username" for="First Name">First Name:</label>
-                <input type="text" name="firstname" id="First Name" size="15" maxlength="30"/>
+                    <label class="username" for="First Name">First Name:</label><input type="text" name="firstname" id="First Name" size="15" maxlength="30"/>
                 </p>
                 <p>
                 <label class="username" for="Last Name">Last Name:</label><input type="text" name="lastname" id="Last Name" size="20" maxlength="35"/>
@@ -59,10 +59,10 @@
                 <label class="username" for="Address2">Address:</label><input type="text" name="address2" id="Address2" size="30" maxlength="40"/>
                 </p>    
                 <p>
-                <label class="username" for="Phone">Phone:</label><input type="text" name="phone" id="Phone"
+                <label class="username" for="Phone">Phone:</label><input type="tel" name="phone" id="Phone"
                 size="15" maxlength="15"/>
                 </p>
-                <input type="submit" value="Submit your details">
+                <input type="submit" value="Submit">
                 </fieldset>  
             </form>
             

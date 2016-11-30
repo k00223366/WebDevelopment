@@ -47,7 +47,7 @@ span {
 #search input {
     
     background-color: white;
-    height: 20px;
+    height: 26px;
     border: 2px solid #B09C04;
     max-width: 70%;
 }
@@ -67,6 +67,23 @@ input[type=text] {
 input[type=email] {
     border: 2px solid #B09C04;/*darkblue;*/
     border-radius: 4px;
+}
+
+input[type=tel] {
+    border: 2px solid #B09C04;/*darkblue;*/
+    border-radius: 4px;
+}
+
+input[type=submit]{
+    border: 1px solid #B09C04;/*darkblue;*/
+    border-radius: 4px;
+    background-color:#823A1E;/*skyblue;*/
+    /*font-weight: bold;*/
+    font-size: 14;
+    width: 80px;
+    margin-left: 100px;
+    color: white;
+    height:26px;
 }
 
 #buttons {   
