@@ -48,6 +48,7 @@ span {
     
     background-color: white;
     height: 20px;
+    border: 2px solid #B09C04;
     max-width: 70%;
 }
 
@@ -59,7 +60,7 @@ span {
 }
 
 input[type=text] {
-    border: 2px solid darkblue;
+    border: 2px solid #B09C04;/*darkblue;*/
     border-radius: 4px;
 }
 
@@ -70,7 +71,7 @@ input[type=text] {
 
 #content {
     width: 100%;
-    border-style: dashed;
+    border: #B09C04 solid 1px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-bottom: 40px;
@@ -127,8 +128,9 @@ ul#drawList li {
 }
 
 header {
-    background-color: #0DB5FF;
+    background-color: #1E99F7; /*#0DB5FF;*/
     font-family: sans-serif;
+    padding: 1px;
    
 }
 nav {
@@ -186,11 +188,15 @@ td {
     padding-right: 5px;
 }
 
+tr td{
+    background-color: #8EC6A5;
+}
+
 tr.odd td{
     background-color: #80C31F;
 }
 
-tfoot {
+tfoot tr td{
     font-family: "myLightOrkneyFont";
     color: white;
     background-color: #823A1E;
@@ -215,25 +221,64 @@ caption {
     
     width: 560px;
     box-sizing: border-box;
-    border-style: dashed;
-    background-color: #8EC6A5;
+    border: #B09C04 solid 1px;
+    background-color: #0DB5FF;/*#8EC6A5;limegreen*/
     margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 10px;
     float: left;
 }
 
+#indexRightPanel {
+   width:320px;
+   box-sizing:border-box;
+   
+   margin-top: 20px;
+   float:right;
+   border: #B09C04 solid 1px;
+   border-radius: 4px;
+   padding: 5px;
+   
+}
+
+#rightPanel {
+   width:320px;
+   box-sizing:border-box;
+   
+   margin-top: 135px;
+   float:right;
+   border: #B09C04 solid 1px;
+   border-radius: 4px;
+   padding: 5px;
+   
+}
+
 #textColumn {
-    width: 320px;
+    width: 305px;
     box-sizing: border-box;
-    border-style: dotted;
-    margin-top: 20px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-right: 3px;
     background-color: #B09C04;
-    float: right;
-    
+    float: right;  
+}
+
+#changeText {
+    width: 305px;
+    box-sizing: border-box;
+    margin-right:3px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    background-color: #B09C04;
+    float:right;   
+}
+
+form {
+    margin-bottom: 10px;
 }
 
 #map {
     margin-top: 20px;
-    border-style: dashed;
+    margin-bottom: 10px;
+    border: #B09C04 solid 1px;
 }
