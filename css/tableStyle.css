@@ -64,6 +64,11 @@ input[type=text] {
     border-radius: 4px;
 }
 
+input[type=email] {
+    border: 2px solid #B09C04;/*darkblue;*/
+    border-radius: 4px;
+}
+
 #buttons {   
     width:540px;
     margin-top: 3px;
