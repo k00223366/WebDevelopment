@@ -29,7 +29,7 @@ header h1{
 
 @font-face {
     font-family:'myRegularOrkneyFont';
-src:url('../font/orkney/Orkney-Regular.otf');
+    src:url('../font/orkney/Orkney-Regular.otf');
     /*url(https://typekit.com/fonts/futura-pt/details/futura-pt-light);
     src:url(./font/orkney/Orkney-Bold.otf);*/
 }
