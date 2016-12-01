@@ -224,6 +224,14 @@ td {
     padding-right: 5px;
 }
 
+td a {
+    color: black;
+}
+
+td a:hover {
+    color: white;
+}
+
 tr td{
     background-color: #8EC6A5;
 }
@@ -281,7 +289,7 @@ caption {
    width:320px;
    box-sizing:border-box;
    
-   margin-top: 105px;
+   margin-top:20px;
    float:right;
    border: #B09C04 solid 1px;
    border-radius: 4px;
@@ -310,7 +318,14 @@ caption {
 }
 
 form {
-    margin-bottom: 260px;
+    box-sizing: border-box;
+    /*border: 1px solid #B09C04;*/
+    height: 540px;
+}
+
+fieldset {
+    border-style: solid;
+    border: 1px solid #B09C04;
 }
 
 #map {
