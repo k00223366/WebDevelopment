@@ -51,8 +51,8 @@ span {
 
 #search {
     background-color: deeppink;
-    max-width: 30%;
-    max-height: 26px;
+    max-width: 50%;
+    /*max-height: 26px;*/
     float:right;
     
 }
@@ -64,6 +64,21 @@ span {
     border: 2px solid #B09C04;
     max-width: 70%;
 }
+
+#search form {
+    height: 28px;
+    
+    
+}
+
+#search form input[type=search] {
+    
+    background-color: white;
+    height: 28px;
+    border: 2px solid #B09C04;
+    max-width: 70%;
+}
+
 
 
 .username {
@@ -190,6 +205,7 @@ footer {
 body {
     background-color: #0DB5FF;  
     font-family: sans-serif;
+    color: black;
 }
 
 
@@ -307,7 +323,12 @@ caption {
     float: right;  
 }
 
+#textColumn p{
+    font-family: 'Calibri'; 
+}
+
 #changeText {
+    font-family: 'Calibri';
     width: 305px;
     box-sizing: border-box;
     margin-right:3px;
