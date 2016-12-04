@@ -325,7 +325,7 @@ caption {
 
 #textColumn p{
     font-family: 'Calibri'; 
-    color: white;
+    
 }
 
 #changeText p{
@@ -337,6 +337,7 @@ caption {
     margin-bottom: 3px;
     background-color: #B09C04;
     float:right;   
+    color: white;
 }
 
 form {
